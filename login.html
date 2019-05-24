@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="background-image: url('images (3).jpg');background-size: cover;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -13,19 +13,26 @@
 				<div class="form-group">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-user"></i></span>
-						<input type="text" placeholder="enter username" class="form-control">
+						<input type="text" required="" placeholder="enter username" class="form-control">
 					</div>
 				</div>
 				<br>
 				<div class="form-group">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-						<input type="password" placeholder="enter password" class="form-control">
+						<input type="password" required="" placeholder="enter password" class="form-control">
 					</div>
 				</div>
 				<br>
+				<div style="font-size: 15px;">Remember me
+					<input type="checkbox">
+				</div>
 				<center>
-				<button class="btn btn-info">Login</button>
+				<button class="btn btn-info">
+					<a href="mypage.html" style="color: white">Login</a>
+				</button>
+				<h6>Forgot your password?</h6>
+				<a href="pwd.html">click here</a>
 			    </center>
 			</form>
 			</div>

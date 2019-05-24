@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <ul class="nav nav-tabs">
+
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#Resume">Resume</a></li>
+    <li><a data-toggle="tab" href="#Gallery">Gallery</a></li>
+    <li><a data-toggle="tab" href="#Contact">Contact</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+
+      <h3>welcome! To my home page</h3>
+      <p>hi,this is pravallika,Studying at Aditya engineering college suramplaem</p>
+    </div>
+    <div id="Resume" class="tab-pane fade">
+      <h5>RESUME</h5>
+    </div>
+    <div id="Gallery" class="tab-pane fade">
+      <h1 class="text-center"><span style="color:green">----Gallery----</span></h1>
+    <div class="row">
+      <div class="col-12">
+        <!-- gallery class need for using gallery -->
+        <div class="card-columns gallery">
+          <!-- need a div for contains img tag -->
+          <div class="galleryItem card">
+            <!-- just need a img tag. if you are want a text add data-text-->
+            <img class="card-img-top" src="ooo.jpg" style="height:200px;width:50%;float:left;">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="puppy.jpg" style="height:200px;width:50%; float:left;" data-text="jQueryScript2">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="doggy.jpg" style="height:200px;width:50%;float:left;" data-text="jQueryScript3">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="ppp.jpg"  style="height:200px;width:50%;float:left;" data-text="jQueryScript4">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="prabha.jpg" style="height:200px;width:50%;float:left;%"data-text="jQueryScript5">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="popy.jpg" style="height:200px;width:50%;float:left;%"data-text="jQueryScript6">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="pony.jpg" style="height:200px;width:50%;float:left;%"data-text="jQueryScript7">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="rr.jpg" style="height:200px;width:50%;float:left;"data-text="jQueryScript8">
+          </div>
+          <div class="galleryItem card">
+            <img class="card-img-top" src="yyy.jpg"style="height:200px;width:50%;float:left;" data-text="jQueryScript9">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+    <div id="Contact" class="tab-pane fade">
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
